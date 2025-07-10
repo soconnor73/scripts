@@ -1,6 +1,10 @@
 # Import Recommended CipherTrust Event Alarm Configurations
 
-This script uses the KSCTL command line utility to import recommended event alarm configurations into the **Thales CipherTrust Data Security Platform**.
+This script uses the KSCTL command line utility to import recommended event alarm configurations into the **Thales CipherTrust Data Security Platform**. 
+
+Event alarms should be restricted to events you need the CipherTrust administrators to be aware of - configuration changes or unsafe behavior. Standard event correlation, dashboards and reporting are typically done by forwarding CipherTrust log records to your SIEM or log analyitics solution. 
+
+🔗 For more information: [Thales Docs Portal](https://thalesdocs.com/ctp/cm/latest/admin/cm_admin/monitoring/records/index.html#configuring-alarm-triggers-based-on-a-record)
 
 ![Alt text](./alarm-configs.png)
 
