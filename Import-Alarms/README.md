@@ -10,4 +10,24 @@ Event alarms should be restricted to events you need the CipherTrust administrat
 
 ![Alt text](./alarm-configs.png)
 
+The following alert configs are defined:
 
+ - Backup Key Downloaded
+ - Certificate Deleted
+ - Client Deleted
+ - CTE Communication Failure
+ - CTE Error updating Client
+ - CTE Guard timed out
+ - CTE GuardPoint Deleted
+ - Interface Created
+ - Interface Deleted
+ - Interface Modified
+ - Key Deleted
+ - Local CA Created
+ - Local CA Deleted
+ - Password Policy Modified
+ - Quorum Policy Updated
+ - Quorum Profile Updated
+ - Scheduled Job Deleted
+ - Weak AES key created
+ - Weak RSA key created
