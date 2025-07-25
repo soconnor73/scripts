@@ -1,7 +1,7 @@
 # scripts to break things (and occasionally perform useful tasks)
 
 > ⚠️ **Disclaimer:**  
-> These scripts and commands are independent and not affiliated with, endorsed, approved, or supported by Thales Cyber Security Products (Thales CSP). Use at your own risk. We disclaim any responsibility for any issues, damages, or liabilities that may arise from its use.  
+> These scripts and commands are independent and not affiliated with, endorsed, approved, or supported by Thales Cyber Security Products (Thales CSP). Use at your own risk. We disclaim any responsibility for any issues, damages, or liabilities that may arise from use of sample code or command syntax.  
 
 
 ![Alt text](./machine.png)
