@@ -23,6 +23,15 @@ $json = @'
     "interval": 0
   },
   {
+    "name": "Quorum Activated",
+    "source_type": "server_record",
+    "condition": "input.message == \"Activate Quorum\" \ninput.success == true \n",
+    "description": "A quorum has been activated",
+    "severity": "info",
+    "threshold": 0,
+    "interval": 0
+  },
+  {
     "name": "Quorum Profile Updated",
     "source_type": "server_record",
     "condition": "input.message == \"Update Quorum Profile\" \ninput.success == true \ninput.service_name == \"platform\" \n",
@@ -183,4 +192,5 @@ $alarms = $json | ConvertFrom-Json
 foreach($alarm in $alarms){
     ksctl records alarm-configs create -n $alarm.name -d $alarm.description -e $alarm.severity -c $alarm.condition -t $alarm.threshold -p $alarm.interval
 }
+
 
