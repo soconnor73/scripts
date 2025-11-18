@@ -24,6 +24,15 @@ json='[
     "interval": 0
   },
   {
+    "name": "Quorum Activated",
+    "source_type": "server_record",
+    "condition": "input.message == \"Activate Quorum\" \ninput.success == true \n",
+    "description": "A quorum has been activated",
+    "severity": "info",
+    "threshold": 0,
+    "interval": 0
+  }, 
+  {
     "name": "Quorum Profile Updated",
     "source_type": "server_record",
     "condition": "input.message == \"Update Quorum Profile\" \ninput.success == true \ninput.service_name == \"platform\" \n",
