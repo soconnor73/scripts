@@ -26,6 +26,7 @@ The following alert configs are defined:
  - Local CA Created
  - Local CA Deleted
  - Password Policy Modified
+ - Quorum Created
  - Quorum Policy Updated
  - Quorum Profile Updated
  - Scheduled Job Deleted
